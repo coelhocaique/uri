@@ -15,13 +15,13 @@ public class P1234 {
 			String inp = scan.readLine();
 			if(inp == null)
 				break;
-			
+
 			char[] letters = new char[inp.length()];
-			
+
 			for (int i = 0; i < letters.length; i++) {
 				letters[i] = inp.charAt(i);
 			}
-			
+
 			boolean lastUp = false;
 			StringBuilder dancer = new StringBuilder();
 			for (int i = 0; i < letters.length; i++) {
