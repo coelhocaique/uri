@@ -1,7 +1,7 @@
 while True:
     try:
         word_number,lines_page,characters = map(int,raw_input().split())
-        words = raw_input().split()
+        words = input().split()
         lines = 0
         chars = 0
         page = 1
@@ -17,6 +17,6 @@ while True:
                 page += 1
                 lines = 0
 
-        print page
+        print(page)
     except EOFError:
         break

@@ -8,6 +8,6 @@ m = input()
 index = 1
 
 while index <= m:
-    n,k = map(int,raw_input().split())
-    print 'CASE %g: %g' % (index,josephus(n,k))
+    n,k = map(int,input().split())
+    print('CASE %g: %g' % (index,josephus(n,k)))
     index += 1

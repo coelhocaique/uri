@@ -1,0 +1,12 @@
+.settings
+.classpath
+.project
+.factorypath
+/.apt_generated/
+/logs/
+logs
+/replay_pid6336.log
+.DS_STORE
+bin/
+.idea/
+*.iml
